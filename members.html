@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Members — Rotaract Club of Magarpatta Trendsetters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div data-include="partials/header.html"></div>
+
+<main>
+  <section class="page-hero container">
+    <span class="ribbon-eyebrow">Our Members</span>
+    <h1>The people behind the projects.</h1>
+    <p>Every avenue, every event, every late-night planning call — run by the Rotaractors below.</p>
+  </section>
+
+  <section class="container" style="padding-top:0;">
+    <div class="section-head" style="margin-bottom:18px;">
+      <span class="ribbon-eyebrow">Celebrating Together</span>
+      <h2 class="mt-0" style="font-size:1.4rem;">Upcoming Birthdays</h2>
+    </div>
+    <div id="birthdayStrip" class="birthday-strip">
+      <div class="empty-state">Loading birthdays&hellip;</div>
+    </div>
+  </section>
+
+  <section class="container" style="padding-top:36px;">
+    <div class="filter-bar">
+      <input type="search" id="memberSearch" placeholder="Search by name or role...">
+      <select id="roleFilter"><option value="">All roles</option></select>
+    </div>
+    <div id="memberGrid" class="card-grid grid-4">
+      <div class="empty-state">Loading members&hellip;</div>
+    </div>
+  </section>
+</main>
+
+<div data-include="partials/footer.html"></div>
+
+<script src="js/include.js"></script>
+<script src="js/main.js"></script>
+<script src="js/members.js"></script>
+</body>
+</html>

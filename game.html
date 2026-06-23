@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Sprint — Rotaract Club of Magarpatta Trendsetters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .game-wrap {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .game-hud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+  }
+  .game-hud .hud-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 10px; padding: 8px 14px; }
+  .game-hud .hud-item b { color: var(--azure); font-size: 1rem; }
+  [data-theme="dark"] .game-hud .hud-item b { color: var(--azure-bright); }
+  #gameCanvas {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: linear-gradient(180deg, var(--azure-soft), var(--gold-soft));
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    display: block;
+    touch-action: none;
+    cursor: grab;
+  }
+  .game-controls { display: flex; justify-content: center; gap: 12px; margin-top: 18px; }
+  .game-overlay {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column; text-align: center; gap: 14px;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    border-radius: var(--radius-md);
+  }
+  .game-canvas-wrap { position: relative; }
+  .legend { display: flex; justify-content: center; gap: 22px; margin-top: 16px; flex-wrap: wrap; font-size: 0.85rem; color: var(--text-muted); }
+  .legend span { font-size: 1.2rem; margin-right: 4px; }
+</style>
+</head>
+<body>
+
+<div data-include="partials/header.html"></div>
+
+<main>
+  <section class="page-hero container">
+    <span class="ribbon-eyebrow">Just For Fun</span>
+    <h1>Service Sprint &#127918;</h1>
+    <p>Catch the Avenues of Service as they fall. Miss three and the sprint's over. How high can you score?</p>
+  </section>
+
+  <section class="container game-wrap" style="padding-top:0;">
+    <div class="game-hud">
+      <div class="hud-item">Score: <b id="scoreVal">0</b></div>
+      <div class="hud-item">Lives: <b id="livesVal">&#10084;&#10084;&#10084;</b></div>
+      <div class="hud-item">Best: <b id="bestVal">0</b></div>
+    </div>
+
+    <div class="game-canvas-wrap">
+      <canvas id="gameCanvas" width="640" height="480"></canvas>
+      <div class="game-overlay" id="gameOverlay">
+        <h2 style="margin:0;">Service Sprint</h2>
+        <p style="max-width:380px;">Move the basket with your mouse, finger, or the arrow keys. Catch every Avenue icon you can &mdash; three misses ends the sprint.</p>
+        <button class="btn btn-gold" id="startBtn">Start Sprint</button>
+      </div>
+    </div>
+
+    <div class="legend">
+      <div><span>&#127891;</span>Community</div>
+      <div><span>&#127760;</span>International</div>
+      <div><span>&#128188;</span>Professional</div>
+      <div><span>&#9881;&#65039;</span>Club Service</div>
+    </div>
+
+    <div class="game-controls">
+      <button class="btn btn-ghost btn-sm" id="restartBtn">Restart</button>
+    </div>
+  </section>
+</main>
+
+<div data-include="partials/footer.html"></div>
+
+<script src="js/include.js"></script>
+<script src="js/main.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>

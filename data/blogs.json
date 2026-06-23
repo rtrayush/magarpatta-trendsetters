@@ -1,0 +1,38 @@
+[
+  {
+    "id": "b01",
+    "title": "Five Things I Learned Coordinating My First District Summit",
+    "excerpt": "From sponsorship spreadsheets to last-minute venue changes — what running the STAR Summit logistics taught me about leadership under pressure.",
+    "author": "Ayush Tiwari",
+    "authorInitials": "AT",
+    "date": "2026-01-25",
+    "tag": "Club Service"
+  },
+  {
+    "id": "b02",
+    "title": "Why Professional Development Avenue Matters More Than You Think",
+    "excerpt": "Service isn't only about giving back — it's also about growing forward. A look at how our workshops are shaping members' careers.",
+    "author": "Ishita Rao",
+    "authorInitials": "IR",
+    "date": "2026-02-10",
+    "tag": "Professional Development"
+  },
+  {
+    "id": "b03",
+    "title": "Inside DaanUtsav: A Week of Giving, In Photos and Numbers",
+    "excerpt": "182 school kits, 40 volunteer-hours, and one very memorable Friday afternoon. A recap of our biggest community service week yet.",
+    "author": "Kabir Shah",
+    "authorInitials": "KS",
+    "date": "2026-03-18",
+    "tag": "Community Service"
+  },
+  {
+    "id": "b04",
+    "title": "Beyond Borders: What Our International Service Partnerships Taught Us",
+    "excerpt": "Connecting with Rotaract clubs overseas isn't just diplomacy — it's a crash course in seeing your own community with fresh eyes.",
+    "author": "Vihaan Mehta",
+    "authorInitials": "VM",
+    "date": "2025-12-05",
+    "tag": "International Service"
+  }
+]

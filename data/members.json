@@ -1,0 +1,92 @@
+[
+  {
+    "id": "m01",
+    "name": "Aarav Deshmukh",
+    "role": "President",
+    "initials": "AD",
+    "bio": "Leads the club's strategic direction and represents Trendsetters at the district level.",
+    "since": 2022,
+    "dob": "06-25"
+  },
+  {
+    "id": "m02",
+    "name": "Ayush Tiwari",
+    "role": "Immediate Past Secretary",
+    "initials": "AT",
+    "bio": "Steered club documentation, reporting, and event coordination through the 2025-26 Rotaract year.",
+    "since": 2023,
+    "dob": "07-02"
+  },
+  {
+    "id": "m03",
+    "name": "Sanaya Kulkarni",
+    "role": "Secretary",
+    "initials": "SK",
+    "bio": "Keeps the club's records, minutes, and member communication running smoothly.",
+    "since": 2023,
+    "dob": "06-28"
+  },
+  {
+    "id": "m04",
+    "name": "Rohan Patil",
+    "role": "Treasurer",
+    "initials": "RP",
+    "bio": "Manages the club's finances, sponsorships, and budget planning for every event.",
+    "since": 2022,
+    "dob": "08-14"
+  },
+  {
+    "id": "m05",
+    "name": "Mihika Joshi",
+    "role": "Vice President",
+    "initials": "MJ",
+    "bio": "Supports the President and oversees committee coordination across avenues.",
+    "since": 2023,
+    "dob": "07-09"
+  },
+  {
+    "id": "m06",
+    "name": "Kabir Shah",
+    "role": "Director, Community Service",
+    "initials": "KS",
+    "bio": "Plans and executes the club's grassroots service projects across Magarpatta and Hadapsar.",
+    "since": 2024,
+    "dob": "09-30"
+  },
+  {
+    "id": "m07",
+    "name": "Ishita Rao",
+    "role": "Director, Professional Development",
+    "initials": "IR",
+    "bio": "Curates skill-building workshops, industrial visits, and networking sessions for members.",
+    "since": 2024,
+    "dob": "07-05"
+  },
+  {
+    "id": "m08",
+    "name": "Vihaan Mehta",
+    "role": "Director, International Service",
+    "initials": "VM",
+    "bio": "Builds bridges with Rotaract clubs abroad and runs the club's global awareness drives.",
+    "since": 2024,
+    "dob": "11-12"
+  },
+  {
+    "id": "m09",
+    "name": "Anaya Bhatt",
+    "role": "Director, Club Service",
+    "initials": "AB",
+    "bio": "Designs the member experience — fellowship events, onboarding, and team bonding.",
+    "since": 2024,
+    "dob": "03-21"
+  },
+  {
+    "id": "m10",
+    "name": "Yash Kapoor",
+    "role": "Editor & Social Media Lead",
+    "initials": "YK",
+    "bio": "Tells the club's story online and edits the quarterly newsletter.",
+    "since": 2025,
+    "dob": "07-18"
+  }
+]

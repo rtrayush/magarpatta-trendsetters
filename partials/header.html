@@ -1,0 +1,46 @@
+<div class="gear-field" aria-hidden="true">
+  <svg class="g1" viewBox="0 0 100 100"><use href="#gearShape"></use></svg>
+  <svg class="g2" viewBox="0 0 100 100"><use href="#gearShape"></use></svg>
+  <svg class="g3" viewBox="0 0 100 100"><use href="#gearShape"></use></svg>
+  <svg class="g4" viewBox="0 0 100 100"><use href="#gearShape"></use></svg>
+</div>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <g id="gearShape">
+      <path fill="currentColor" d="M50 10 L56 10 L58 20 L68 23 L76 16 L82 22 L75 30 L79 39 L90 41 L90 49 L79 51 L75 60 L82 68 L76 74 L68 67 L58 70 L56 80 L50 90 L44 80 L42 70 L32 67 L24 74 L18 68 L25 60 L21 51 L10 49 L10 41 L21 39 L25 30 L18 22 L24 16 L32 23 L42 20 L44 10 Z" style="color:var(--azure)"/>
+      <circle cx="50" cy="50" r="14" fill="var(--bg)"/>
+    </g>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <svg class="seal" viewBox="0 0 100 100">
+        <use href="#gearShape" style="color:var(--gold)"></use>
+      </svg>
+      <span class="brand-text">
+        Magarpatta Trendsetters
+        <small>Rotaract Club &middot; D3131</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle-btn" id="navToggleBtn" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+
+    <nav class="primary-nav" id="primaryNav">
+      <a href="index.html" data-page="index">Home</a>
+      <a href="about.html" data-page="about">About</a>
+      <a href="why-join.html" data-page="why-join">Why Join</a>
+      <a href="members.html" data-page="members">Members</a>
+      <a href="events.html" data-page="events">Events</a>
+      <a href="blogs.html" data-page="blogs">Blogs</a>
+      <a href="game.html" data-page="game">Service Sprint &#127918;</a>
+      <a href="contact.html" data-page="contact" class="btn btn-gold btn-sm" style="margin-left:6px;">Join Us</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#127769;</button>
+    </div>
+  </div>
+</header>
