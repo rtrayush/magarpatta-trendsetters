@@ -49,7 +49,11 @@ function renderMembers(members) {
   grid.innerHTML = members.map(m => `
     <div class="badge-card reveal in">
       ${isBirthdayToday(m.dob) ? '<span class="birthday-flag">\ud83c\udf82 Birthday!</span>' : ''}
-      <div class="badge-photo">${m.initials}</div>
+      <div class="badge-photo">
+        ${m.photo
+          ? `<img src="${m.photo}" alt="${m.name}" onerror="this.style.display='none';this.parentElement.dataset.fallback='true';">`
+          : m.initials}
+      </div>
       <h3>${m.name}</h3>
       <span class="badge-role">${m.role}</span>
       <p class="badge-bio">${m.bio}</p>
