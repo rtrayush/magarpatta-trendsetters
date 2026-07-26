@@ -4,6 +4,7 @@
     "name": "DHARSHINI S",
     "role": "Club President",
     "initials": "DS",
+    "photo": "assets/Members/DS.jpg",
     "bio": "Leads the club's strategic direction and represents Trendsetters at the district level.",
     "since": 2024,
     "dob": "07-24"
@@ -13,6 +14,7 @@
     "name": "Tanaya Deshpande",
     "role": "Club Secretary",
     "initials": "TDE",
+    "photo": "assets/Members/TDE.jpg",
     "bio": "Managing Rotaract Documentation, Reporting and Administration.",
     "since": 2024,
     "dob": "10-25"
@@ -22,6 +24,7 @@
     "name": "Pranav Shikarkhane",
     "role": "Treasurer",
     "initials": "PS",
+    "photo": "assets/Members/PS.jpg",
     "bio": "Manages the club's finances, sponsorships, and budget planning for every event.",
     "since": 2026,
     "dob": "06-28"
@@ -31,6 +34,7 @@
     "name": "Advait Sathe",
     "role": "Joint Secretary",
     "initials": "AS",
+    "photo": "assets/Members/AS.jpg",
     "bio": "Manages the club's Documentation, Reporting, and administration by assisting the Club Secretary.",
     "since": 2024,
     "dob": "09-17"
@@ -40,7 +44,8 @@
     "name": "Ayush Bhoj",
     "role": "Club Advisor, Immediate Past Secretary, Website Co-ordinator",
     "initials": "AB",
-    "bio": "Mentors Club members and core and advises all the avenues and sectors of Rotaract. Overlooked all club administration work in RIY 2025-26. Coordinates and updates the website.",
+    "photo": "assets/Members/AB.jpg",
+    "bio": "Mentors Club members and core and, advises all the avenues and sectors of Rotaract. Overlooked all club administration work in RIY 2025-26. Coordinates and updates the website.",
     "since": 2024,
     "dob": "08-20"
   },
@@ -58,6 +63,7 @@
     "name": "Riya Inamdar",
     "role": "Sergeant at Arms",
     "initials": "RI",
+    "photo": "assets/Members/RI.jpeg",
     "bio": "Maintains Discipline, Decorum and the Rotaract spirit among members.",
     "since": 2024,
     "dob": "03-19"
@@ -67,6 +73,7 @@
     "name": "Karan Varghese",
     "role": "Immediate Past President, Rotary-Rotaract Relationship Officer",
     "initials": "KMV",
+    "photo": "assets/Members/KV.jpg",
     "bio": "Builds bridges with Rotaract clubs abroad and runs the club's global awareness drives.",
     "since": 2024,
     "dob": "04-29"
@@ -76,6 +83,7 @@
     "name": "Payas Pawar",
     "role": "Director, Community Service",
     "initials": "PP",
+    "photo": "assets/Members/PP.png",
     "bio": "Designs the community experience — service events, fundraisers, and donations.",
     "since": 2026,
     "dob": "07-02"
@@ -85,6 +93,7 @@
     "name": "Vaishnavi Bhosale",
     "role": "Director, Club Service",
     "initials": "VB",
+    "photo": "assets/Members/VB.webp",
     "bio": "Designs the member experience — fun events, onboarding, and team bonding.",
     "since": 2026,
     "dob": "10-20"
@@ -94,6 +103,7 @@
     "name": "Silky Bhore",
     "role": "Co-Director, Club Service",
     "initials": "SB",
+    "photo": "assets/Members/SB.jpeg",
     "bio": "Designs the member experience — fun events, onboarding, and team bonding.",
     "since": 2026,
     "dob": "12-09"
@@ -103,6 +113,7 @@
     "name": "Omkar Bagul",
     "role": "Director, International Service",
     "initials": "OB",
+    "photo": "assets/Members/OB.jpg",
     "bio": "Builds bridges with Rotaract clubs abroad and runs the club's global awareness drives.",
     "since": 2026,
     "dob": "01-05"
@@ -112,6 +123,7 @@
     "name": "Shaunak Deshmukh",
     "role": "Director, Professional Development",
     "initials": "SD",
+    "photo": "assets/Members/SD.jpeg",
     "bio": "Curates skill-building workshops, industrial visits, and networking sessions for members.",
     "since": 2026,
     "dob": "02-11"
@@ -121,6 +133,7 @@
     "name": "Niilee Bafna",
     "role": "Public Relations Officer",
     "initials": "NB",
+    "photo": "assets/Members/NB.jpeg",
     "bio": "Tells the club's story online and edits the quarterly newsletter.",
     "since": 2026,
     "dob": "05-23"
@@ -130,6 +143,7 @@
     "name": "Rehan Shaikh",
     "role": "Co-Public Relations Officer",
     "initials": "RS",
+    "photo": "assets/Members/RS.jpg",
     "bio": "Tells the club's story online and edits the quarterly newsletter.",
     "since": 2026,
     "dob": "11-01"
@@ -139,6 +153,7 @@
     "name": "Umar Shaikh",
     "role": "Co-Public Relations Officer",
     "initials": "US",
+    "photo": "assets/Members/US.webp",
     "bio": "Tells the club's story online and edits the quarterly newsletter.",
     "since": 2026,
     "dob": "11-17"
@@ -148,6 +163,7 @@
     "name": "Vageesha Karhadkar",
     "role": "Public Image Director, Co-Editor & District Editor",
     "initials": "VK",
+    "photo": "assets/Members/VK.jpeg",
     "bio": "Represents the Club's Image and assists in editing PR posts.",
     "since": 2024,
     "dob": "11-16"
@@ -157,6 +173,7 @@
     "name": "Oshin Bhagat",
     "role": "Club Editor",
     "initials": "OSB",
+    "photo": "assets/Members/OSB.jpg",
     "bio": "Tells the club's story online and edits the quarterly newsletter.",
     "since": 2026,
     "dob": "10-29"
@@ -166,6 +183,7 @@
     "name": "Shriya Kandge",
     "role": "Diversity, Equity & Inclusion Officer, World Rotaract Week Chairperson",
     "initials": "SK",
+    "photo": "assets/Members/SK.jpg",
     "bio": "Looks over the DEI aspect of the club and leads the WRW Celebrations.",
     "since": 2026,
     "dob": "09-10"
@@ -175,6 +193,7 @@
     "name": "Ketan Khatavkar",
     "role": "Financial Advisor",
     "initials": "KK",
+    "photo": "assets/Members/KK.png",
     "bio": "Advises the club finances and mentors the treasurer.",
     "since": 2024,
     "dob": "05-10"
@@ -184,6 +203,7 @@
     "name": "Niyati Jagtap",
     "role": "General Body Member",
     "initials": "NJ",
+    "photo": "assets/Members/NJ.jpeg",
     "bio": "Active Rotaract member driving community service, meetings, and group projects.",
     "since": 2026,
     "dob": "08-20"
@@ -193,6 +213,7 @@
     "name": "Atharva Bagade",
     "role": "General Body Member",
     "initials": "ATB",
+    "photo": "assets/Members/ATB.jpg",
     "bio": "Active Rotaract member driving community service, meetings, and group projects.",
     "since": 2026,
     "dob": "03-10"
@@ -202,6 +223,7 @@
     "name": "Ryan Rangaswamy",
     "role": "General Body Member",
     "initials": "RR",
+    "photo": "assets/Members/RR.jpg",
     "bio": "Active Rotaract member driving community service, meetings, and group projects.",
     "since": 2026,
     "dob": "06-09"
@@ -211,6 +233,7 @@
     "name": "Bhavani Krishnan",
     "role": "General Body Member",
     "initials": "BK",
+    "photo": "assets/Members/BK.jpg",
     "bio": "Active Rotaract member driving community service, meetings, and group projects.",
     "since": 2026,
     "dob": "01-09"
@@ -220,6 +243,7 @@
     "name": "Anagha Khandagale",
     "role": "General Body Member",
     "initials": "AK",
+    "photo": "assets/Members/AW.jpg",
     "bio": "Active Rotaract member driving community service, meetings, and group projects.",
     "since": 2026,
     "dob": "12-03"
@@ -229,6 +253,7 @@
     "name": "Abhishek Bajare",
     "role": "General Body Member",
     "initials": "ABJ",
+    "photo": "assets/Members/ABJ.jpeg",
     "bio": "Active Rotaract member driving community service, meetings, and group projects.",
     "since": 2026,
     "dob": "09-06"
@@ -238,6 +263,7 @@
     "name": "Prasad Waghulde",
     "role": "General Body Member",
     "initials": "PW",
+    "photo": "assets/Members/PW.jpeg",
     "bio": "Active Rotaract member driving community service, meetings, and group projects.",
     "since": 2026,
     "dob": "09-30"
