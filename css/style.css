@@ -446,6 +446,12 @@ section.alt { background: var(--bg-elevated); border-top: 1px solid var(--border
   color: var(--azure);
   border: 3px solid var(--bg);
   outline: 2px solid var(--gold);
+  overflow: hidden;        /* ← ADD THIS LINE */
+}
+.badge-photo img {         /* ← ADD THIS ENTIRE BLOCK */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 [data-theme="dark"] .badge-photo { color: var(--azure-bright); }
 .badge-card h3 { font-size: 1.05rem; margin-bottom: 2px; }
